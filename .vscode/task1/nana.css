@@ -1,0 +1,24 @@
+
+body{
+       background-color:#fcebcb;
+      margin: 0%;
+      padding-top: 0;
+
+}
+nav {
+      text-align: center;
+      background-color: azure;
+      padding: 20px;
+      
+
+
+}
+nav a {
+      margin: 5%;
+      text-decoration: none;
+      color: black;
+}
+ header{
+       background-image: url( "/projrct2/task1/anna-claire-schellenberg-I-Wwum_jYs8-unsplash.jpg");
+      text-align: left;
+ }

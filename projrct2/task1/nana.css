@@ -1,0 +1,169 @@
+body {
+  background-color: #f7e7ca;
+  margin: 0%;
+  padding-top: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  text-align: center;
+  background-color: azure;
+  padding: 0px;
+}
+
+.container-fluid {
+  height: 50px;
+  padding: 0px;
+}
+
+.logo {
+  vertical-align: middle;
+  padding: 0px;
+  width: 80px;
+  margin-left: 0px;
+}
+
+nav a {
+  margin: 0%;
+  text-decoration: none;
+  color: rgb(24, 22, 22);
+  margin-left: 0px;
+  text-align: right;
+  margin-right: 15rem;
+}
+
+.h {
+  color: rgb(255, 236, 200);
+  background-image: url("anna-claire-schellenberg-I-Wwum_jYs8-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  padding-top: 10%;
+  margin-right: 0%;
+  padding-bottom: 50px;
+  height: 500px;
+}
+
+header a {
+  color: rgb(58, 29, 0);
+  padding: 5px 10px;
+  background-color: rgb(252, 230, 201);
+  text-decoration: none;
+  margin-right: 50px;
+  margin-top: 25px;
+  border-color: rgb(56, 29, 2);
+  border-width:1px;
+  border-style: solid;
+}
+.a-sec{
+  color: rgb(56, 29, 2);
+  padding: 5px 10px;
+  background-color: rgb(255, 212, 157);
+  text-decoration: none;
+  margin-right: 50px;
+  margin-top: 25px;
+  border-color: rgb(56, 29, 2);
+  border-width: 1px;
+  border-style: solid;
+}
+.first-s {
+  margin: 100px 0px;
+  padding: 0;
+}
+
+.first-img {
+  padding-right: 0px;
+  padding-left: 205px;
+}
+
+.container {
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+#scond-colm {
+  padding-left: 200px;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+h2,
+p-scond {
+  display: inline;
+  text-align: left;
+}
+
+.img-discrprtion {
+  width: 79%;
+  display: inline;
+  text-align: right;
+  margin-left: 395px;
+  margin-right: 0;
+  height: 100%;
+}
+
+#h4-scond-section {
+  text-align: center;
+}
+
+.scond-s {
+  margin: 10px 0px;
+  padding: 0;
+}
+
+#final-colm {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#first-h4 {
+  margin-right: 100px;
+}
+#scond-div-row {
+  padding: 0;
+}
+
+h4 {
+  margin-top: 100Px;
+}
+
+.h4-sec {
+  transform: rotate(270deg);
+  color: #000000;
+  background-color: burlywood;
+  text-align: left;
+  
+
+}
+
+.h4-sec2 {
+  transform: rotate(90deg);
+  color: #000000;
+  background-color: burlywood;
+  text-align: right;
+
+
+}
+
+.r-word {
+  margin-left: px;
+}
+
+.h-lift {
+  padding-left: 215px;
+}
+
+#scond-div-colm {
+  text-align: center;
+  padding: 0%;
+}
