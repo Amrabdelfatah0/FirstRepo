@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+            <script src="main.js"></script>     
+</head>
+<body>
+    <nav  class="navbar navbar-dark bg-dark">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">subscribe</a>
+        <a href="">Products</a>
+
+    </nav>
+ <article>
+    <form>
+        <label for="exampleFormControlInput1" class="form-label"> User Name </label>
+<input id="UserNameText" class="cell" type="text" >
+<br>
+<hr>
+        <label for="exampleFormControlInput1" class="form-label"> Password </label>
+
+<input id="Password-text" class="cell"  type="password">
+<br><hr>
+
+        <label for="exampleFormControlInput1" class="form-label"> Email </label>
+
+<input id="Email-text" class="cell" type="email" >
+<br><hr>
+
+        <label for="exampleFormControlInput1" class="form-label"> Age </label>
+
+<input id="Age-text" class="cell" type="datetime">
+<br><hr>
+
+        <label for="exampleFormControlInput1" class="form-label"> Date </label>
+
+<input id="Date"  class="cell" type="date"><hr>
+
+<p>Radio</p>
+<input  value="Programming"  name="ra" class="radio3" type="radio" >
+        <label>Programming</label>
+        <br>
+        <input value="Graphic" name="ra" class="radio3" type="radio">
+        <label>Graphic</label>
+<br>
+<div class="pro">
+<input  class="check4" type="checkbox">
+<label >c#</label>
+<input class="check4" type="checkbox">
+<label>HTML</label>
+<input class="check4" type="checkbox">
+<label>CSS</label>
+</div>
+<div class="gra">
+<input class="check4" type="checkbox">
+<label>Photoshop</label>
+<input class="check4" type="checkbox">
+<label>Illistrator</label>
+</div>
+<br>
+<label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+<textarea id="Textarea" ></textarea>
+<br>
+<input id="savebutton" class="btn btn-primary" type="submit" value="save">
+<button id="clearBtn" type="button" class="btn btn-danger " value="empty" onclick="clear()" > clear</button>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
