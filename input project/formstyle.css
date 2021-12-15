@@ -82,3 +82,8 @@ button{
     display: inline-table;
   width: 100PX;
 }
+.btn btn-success{
+ display: inline;
+ margin-left: 20px;
+ padding-left: 20px;
+}
