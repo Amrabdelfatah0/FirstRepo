@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-#exampleModal{
+.modal fade{
     font-size: 15px;
     padding: 10px;
 }
