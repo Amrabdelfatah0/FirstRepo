@@ -1,8 +1,7 @@
 function Login(){
-    var username=$("#UserNameText").val();
-    var password=$("#PasswordText").val();
-    var email=$("#EmailText").val();
-    var age=$("#AgeText").val();
+    var username=$("#UserNameTextv").val();
+    var password=$("#PasswordTextv").val();
+
     var formValidation = inputValidation();
     if (formValidation==true) { 
          $("#loginFeedback").show("slow");
@@ -11,19 +10,18 @@ function Login(){
     }
 }
 function clearInputs(){
-    $("#userNameTXT").val("");
-    $("#passwordTXT").val("");
+    $("#UserNameTextv").val("");
+    $("#PasswordTextv").val("");
 }
 
 function inputValidation(){
     var Valid;
-    var username=$("#userNameTXT").val();
-    var password=$("#passwordTXT").val();
-    var email=$("#EmailText").val();
-    var age=$("#AgeText").val();
+    var username=$("#UserNameTextv").val();
+    var password=$("#PasswordTextv").val();
+  
 
    
-    if (username!=""&&password!=""&&email!=""&&age!="") {
+    if (username!=""&&password) {
         Valid=true;
     } else {
         Valid=false;
